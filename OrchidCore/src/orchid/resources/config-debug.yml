@@ -9,15 +9,15 @@ services:
       - 'kotlindoc'
       - 'groovydoc'
 #      - 'pages'
-#      - 'styleguide'
-#      - 'posts'
-#      - 'changelog'
-#      - 'forms'
-#      - 'presentations'
+      - 'styleguide'
+      - 'posts'
+      - 'changelog'
+      - 'forms'
+      - 'presentations'
       - 'sitemap'
       - 'indices'
       - 'feeds'
-#      - 'taxonomies'
+      - 'taxonomies'
 
 wiki:
   sections:

@@ -1,5 +1,5 @@
 staticPages:
-  layout: geopattern
+  layout: boxNoTitle
   searchIndices:
     - 'pages'
   extraCss:

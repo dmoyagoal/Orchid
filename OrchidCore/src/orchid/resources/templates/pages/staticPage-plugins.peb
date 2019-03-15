@@ -1,1 +1,5 @@
-{% extends (official) ? 'includes/officialPlugin' : 'includes/unofficialPlugin' %}
+{% include 'includes/pluginPageHeader.peb' %}
+
+{{ page.content | raw }}
+
+{% include 'includes/dependencyTabs.peb' %}

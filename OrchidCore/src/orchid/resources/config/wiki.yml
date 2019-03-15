@@ -5,9 +5,7 @@ sections:
     title: 'Learn'
 
 wikiPages:
-  layout: geopattern2
-  searchIndices:
-    - 'wiki'
+  layout: wiki
 'user-manual':
   menu:
     - type: 'separator'

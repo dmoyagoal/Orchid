@@ -30,7 +30,13 @@
       <div class="grow"></div>
       <div class="page-footer">
       {% block pagination  %}{{ paginationLinks(page)  }}{% endblock %}
-      {% block footer %}{{ footerContent(page)  }}{% endblock %}
+      {% block footer %}
+        <footer class="footer">
+          <div class="content is-small">
+          {% include 'includes/footer.peb' %}
+          </div>
+        </footer>
+      {% endblock %}
       </div>
     </div>
   </div>
@@ -113,10 +119,3 @@
 </nav>
 {% endmacro %}
 
-{% macro footerContent(page) %}
-<footer class="footer">
-  <div class="content is-small">
-    {% include 'includes/footer.peb' %}
-  </div>
-</footer>
-{% endmacro %}
