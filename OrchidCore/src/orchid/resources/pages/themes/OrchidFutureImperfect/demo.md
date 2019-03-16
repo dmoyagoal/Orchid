@@ -1,5 +1,6 @@
 ---
-theme: FutureImperfect
+theme: 
+  from: 'themes.demo.FutureImperfect'
 template: 'page'
 skipTaxonomy: true
 components:

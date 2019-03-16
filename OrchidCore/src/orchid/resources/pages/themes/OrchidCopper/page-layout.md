@@ -1,6 +1,7 @@
 ---
 title: Copper - Page Layout
-theme: Copper
+theme: 
+  from: 'themes.demo.Copper'
 template: page
 skipTaxonomy: true
 parent: Copper Demo

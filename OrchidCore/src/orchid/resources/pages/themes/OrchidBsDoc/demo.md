@@ -1,5 +1,6 @@
 ---
-theme: BsDoc
+theme: 
+  from: 'themes.demo.BsDoc'
 template: page
 skipTaxonomy: true
 menu:

@@ -1,6 +1,8 @@
 package com.eden.orchid.api.options;
 
 import com.eden.orchid.api.OrchidContext;
+import com.eden.orchid.api.options.annotations.Archetype;
+import com.eden.orchid.api.options.archetypes.SharedConfigArchetype;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,6 +11,7 @@ import javax.inject.Inject;
 import java.util.HashMap;
 import java.util.Map;
 
+@Archetype(value = SharedConfigArchetype.class, key = "from")
 public abstract class Relation<T> implements OptionsHolder {
 
     protected final OrchidContext context;

@@ -21,5 +21,5 @@ menu:
     asSubmenu: true
     submenuTitle: Docs
 tags:
-    - official
+  - 'official'
 ---
