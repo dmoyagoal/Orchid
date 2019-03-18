@@ -1,5 +1,11 @@
-{% include 'includes/pluginPageHeader.peb' %}
+<div class="box">
+{% include 'includes/pluginPageHeader.peb' with { 'docLink': 'demo', 'docName': 'Live Demo', 'docIcon': 'desktop' } %}
 
+<div class="content is-medium">
 {{ page.content | raw }}
+</div>
 
 {% include 'includes/dependencyTabs.peb' %}
+</div>
+
+{% include 'includes/imageCards.peb' with {'images': page.images} %}

@@ -1,4 +1,5 @@
 ---
+from: docs.bundle_index
 included:
   - pluginType: themes
     pluginName: Orchid Bs Doc
@@ -42,8 +43,6 @@ included:
     pluginName: Orchid Taxonomies
   - pluginType: plugins
     pluginName: Orchid Wiki
-tags:
-  - 'official'
 ---
 
 An Orchid bundle containing every officially-developed Orchid plugin and theme. This offers the greatest flexibility to 

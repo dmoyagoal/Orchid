@@ -1,18 +1,10 @@
 ---
+from: docs.plugin_index
 description: Embed the Swagger UI within any Orchid page.
 images:
   - src: https://res.cloudinary.com/orchid/image/upload/c_scale,w_300,e_blur:150/v1524973700/plugins/swagger.jpg
     alt: Swagger
     caption: Screenshot of Swagger UI
-menu:
-  - type: 'page'
-    itemId: 'Orchid Swagger'
-  - type: 'pageChildren'
-    itemId: 'Orchid Swagger'
-    asSubmenu: true
-    submenuTitle: Docs
-tags:
-  - 'official'
 ---
 
 ### Adding Swagger UI

@@ -1,5 +1,5 @@
 ---
+layout: noBox
 components:
   - type: changelog
-layout: noBox
 ---

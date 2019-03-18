@@ -1,18 +1,10 @@
 ---
+from: docs.plugin_index
 description: A Gitbook-like wiki for your Orchid site. 
 images:
   - src: https://res.cloudinary.com/orchid/image/upload/c_scale,w_300,e_blur:150/v1524973072/plugins/wiki.jpg
     alt: Wiki
     caption: Photo by Patrick Tomasso on Unsplash
-menu:
-  - type: 'page'
-    itemId: 'Orchid Wiki'
-  - type: 'pageChildren'
-    itemId: 'Orchid Wiki'
-    asSubmenu: true
-    submenuTitle: Docs
-tags:
-  - 'official'
 ---
 
 ## Creating Wikis

@@ -9,7 +9,7 @@
 {% filter compileAs('md') %}
   ```groovy
   dependencies {
-  orchidRuntime 'io.github.javaeden.orchid:{{- page.reference.pathSegments|last -}}:{{ site.version }}'
+      orchidRuntime 'io.github.javaeden.orchid:{{- page.reference.pathSegments|last -}}:{{ site.version }}'
   }
   ```
 {% endfilter %}
@@ -19,10 +19,10 @@
 {% filter compileAs('md') %}
   ```xml
   <dependency>
-    <groupId>io.github.javaeden.orchid</groupId>
-    <artifactId>{{- page.reference.pathSegments|last -}}</artifactId>
-    <version>{{ site.version }}</version>
-    <type>pom</type>
+      <groupId>io.github.javaeden.orchid</groupId>
+      <artifactId>{{- page.reference.pathSegments|last -}}</artifactId>
+      <version>{{ site.version }}</version>
+      <type>pom</type>
   </dependency>
   ```
 {% endfilter %}

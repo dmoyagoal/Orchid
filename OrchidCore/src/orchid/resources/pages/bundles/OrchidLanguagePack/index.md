@@ -1,4 +1,5 @@
 ---
+from: docs.bundle_index
 included:
   - pluginType: plugins
     pluginName: Orchid Asciidoc
@@ -10,8 +11,6 @@ included:
     pluginName: Orchid Syntax Highlighter
   - pluginType: plugins
     pluginName: Orchid Writers Blocks
-tags:
-  - 'official'
 ---
 
 The Orchid Language Pack bundle is not a ready-to-use bundle, but does group together all the plugins designed to 

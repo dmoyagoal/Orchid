@@ -1,4 +1,5 @@
 ---
+from: docs.bundle_index
 included:
   - pluginType: themes
     pluginName: Orchid Editorial
@@ -16,8 +17,6 @@ included:
     pluginName: Orchid Diagrams
   - pluginType: plugins
     pluginName: Orchid Syntax Highlighter
-tags:
-  - 'official'
 ---
 
 The Orchid Docs bundle is your one-stop-shop to get started documenting your projects with Orchid! It includes the most

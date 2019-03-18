@@ -1,4 +1,5 @@
 ---
+from: docs.bundle_index
 included:
   - pluginType: plugins
     pluginName: Orchid Posts
@@ -10,8 +11,6 @@ included:
     pluginName: Orchid Taxonomies
   - pluginType: bundles
     pluginName: Orchid Language Pack
-tags:
-  - 'official'
 ---
 
 The Orchid Blog bundle provides just what you need to get started writing your blog, and nothing more. You won't get 

@@ -6,9 +6,9 @@
   <div class="is-hidden-touch" style="position: absolute; top: 0; right: 0;">
   {% if noDocs is empty %}
     <div>
-      <a href="{{- page.link~'/docs' -}}">
-        <i class="fa fa-home" aria-hidden="true"></i>
-        <span>Full Documentation</span>
+      <a href="{{- page.link~'/'~docLink -}}">
+        <i class="fa fa-{{ docIcon }}" aria-hidden="true"></i>
+        <span>{{ docName }}</span>
       </a>
     </div>
   {% endif %}
@@ -16,6 +16,12 @@
       <a href="https://github.com/JavaEden/Orchid">
         <i class="fab fa-github" aria-hidden="true"></i>
         <span>JavaEden/Orchid</span>
+      </a>
+    </div>
+    <div>
+      <a href="https://github.com/JavaEden/Orchid/edit/docs/OrchidCore/src/orchid/resources/{{ page.resource.reference.originalFullFilename }}">
+        <i class="fas fa-edit" aria-hidden="true"></i>
+        <span>Edit this page</span>
       </a>
     </div>
   </div>
@@ -29,14 +35,18 @@
   {# mobile sepcific stuff #}
   <div class="is-hidden-desktop">
   {% if noDocs is empty %}
-    <a href="{{- page.link~'/docs' -}}">
-      <i class="fa fa-home" aria-hidden="true"></i>
-      <span>Full Documentation</span>
+    <a href="{{- page.link~'/'~docLink -}}" style="margin-right: 12px; white-space: nowrap">
+      <i class="fa fa-{{ docIcon }}" aria-hidden="true"></i>
+      <span>{{ docName }}</span>
     </a>
   {% endif %}
-    <a href="https://github.com/JavaEden/Orchid" style="margin-left: 12px;">
+    <a href="https://github.com/JavaEden/Orchid" style="margin-right: 12px; white-space: nowrap">
       <i class="fab fa-github" aria-hidden="true"></i>
       <span>JavaEden/Orchid</span>
+    </a>
+    <a href="https://github.com/JavaEden/Orchid/edit/docs/OrchidCore/src/orchid/resources/{{ page.resource.reference.originalFullFilename }}" style="margin-right: 12px; white-space: nowrap">
+      <i class="fas fa-edit" aria-hidden="true"></i>
+      <span>Edit this page</span>
     </a>
   </div>
 

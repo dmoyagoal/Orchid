@@ -1,6 +1,3 @@
 staticPages:
-  layout: boxNoTitle
-  searchIndices:
-    - 'pages'
   extraCss:
     - 'assets/css/plugins.scss'

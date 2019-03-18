@@ -1,19 +1,11 @@
 ---
+from: docs.plugin_index
 noDocs: true
 description: Load the full text of Bible verses quickly and easily.
 images:
   - src: https://res.cloudinary.com/orchid/image/upload/c_scale,w_300,e_blur:150/v1524973072/plugins/bible.jpg
     alt: Bible
     caption: Photo by Priscilla Du Preez on Unsplash
-menu:
-  - type: 'page'
-    itemId: 'Orchid Bible'
-  - type: 'pageChildren'
-    itemId: 'Orchid Bible'
-    asSubmenu: true
-    submenuTitle: Docs
-tags:
-  - 'official'
 ---
 
 ### Adding Bible verses
